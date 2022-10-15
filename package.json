@@ -1,0 +1,28 @@
+{
+  "name": "Api-Login-Authentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vitorsantos100798/Api-Login-Authentication.git",
+  "author": "Vitor Santos <githubvitor@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon --exec ts-node --files src/index.ts",
+    "typeorm": "npx ts-node ./node_modules/typeorm/cli.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "8.2.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.2.25"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "nodemon": "2.0.4",
+    "ts-node": "8.10.2",
+    "typescript": "^4.8.4"
+  }
+}
